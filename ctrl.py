@@ -24,3 +24,6 @@ class Control:
             return str(a+b)
         except:
             return "Calculation Error"
+    
+    def sub(self, a, b):
+        return a-b
